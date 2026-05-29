@@ -1,11 +1,11 @@
 name: Manual
 on:
   workflow_dispatch:
-    inputos:
+    inputs:
       greeting:
         type: string
         default: Hello
-        required: ture
+        required: true
         description: A cheerful word
 jobs:
   run:
