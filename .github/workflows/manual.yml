@@ -15,6 +15,6 @@ on:
         description: A cheerful word
 jobs:
   run:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - run: echo "${{ inputs.greeting }}"
