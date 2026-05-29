@@ -1,7 +1,7 @@
 name: Contexts
 on: push
 jobs:
-  proing:
+  printing:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "${{ github.actor }}"
+      - run: echo "actor ${{ github.actor }}"
